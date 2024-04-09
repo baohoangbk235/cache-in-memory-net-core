@@ -1,0 +1,5 @@
+CachingExample/obj
+RedisExample/obj
+*.cache
+*.suo
+.vs/MyCacheMemory

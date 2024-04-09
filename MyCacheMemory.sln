@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingExample", "CachingExample\CachingExample.csproj", "{9DA79477-05AD-45FB-89FA-8ACC5B8DEBE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisExample", "RedisExample\RedisExample.csproj", "{03785C92-FAAB-43C4-BE44-D51DAE583763}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{9DA79477-05AD-45FB-89FA-8ACC5B8DEBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DA79477-05AD-45FB-89FA-8ACC5B8DEBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DA79477-05AD-45FB-89FA-8ACC5B8DEBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03785C92-FAAB-43C4-BE44-D51DAE583763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03785C92-FAAB-43C4-BE44-D51DAE583763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03785C92-FAAB-43C4-BE44-D51DAE583763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03785C92-FAAB-43C4-BE44-D51DAE583763}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D4BA72F-D7EB-4BFA-AEC4-7B246D491EF1}
 	EndGlobalSection
 EndGlobal
